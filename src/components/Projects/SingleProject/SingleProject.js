@@ -10,8 +10,8 @@ const SingleProject = ({project}) => {
                 <div class="card-body">
                     <h5 class="card-title">{projectName}</h5>
                     <p class="card-text text-justify">{projectAbout}</p>
-                    <a href={projectLive} target="_blank"><button class="btn btn-primary ml-3">LIVE</button></a>
-                    <a href={projectCode} target="_blank"><button class="btn btn-primary ml-3">CODE</button></a>
+                    <a href={projectLive} target="_blank" rel="noopener noreferrer"><button class="btn btn-primary ml-3">LIVE</button></a>
+                    <a href={projectCode} target="_blank" rel="noopener noreferrer"><button class="btn btn-primary ml-3">CODE</button></a>
                 </div>
             </div>
         </div>
