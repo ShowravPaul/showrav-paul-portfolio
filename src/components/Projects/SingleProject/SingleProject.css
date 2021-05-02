@@ -1,0 +1,11 @@
+.card{
+    margin: 2% 2%;
+    height: 600px;
+    background-color: rgb(1, 30, 39);
+}
+.card img{
+    padding-top: 25px;
+    width: 50%;
+    height: 350px;
+    align-self: center;
+}
