@@ -8,7 +8,7 @@ const SingleProject = ({project}) => {
             <div className="card">
                 <img src={projectImage} alt="" />
                 <div class="card-body">
-                    <h5 class="card-title">{projectName}</h5>
+                    <h3 class="card-title">{projectName}</h3>
                     <p class="card-text text-justify">{projectAbout}</p>
                     <a href={projectLive} target="_blank" rel="noopener noreferrer"><button class="btn btn-primary ml-3">LIVE</button></a>
                     <a href={projectCode} target="_blank" rel="noopener noreferrer"><button class="btn btn-primary ml-3">CODE</button></a>

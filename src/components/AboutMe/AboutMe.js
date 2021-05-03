@@ -1,9 +1,10 @@
 import React from 'react';
+import './AboutMe.css'
 
 const AboutMe = () => {
     return (
-        <div>
-            <div className="container mt-5">
+        <div className="about-me">
+            <div className="container">
                 <h3>Education</h3>
                 <p>B.Sc. in Information and Communication Engineering, Pabna University of Science and Technology</p>
             </div>
